@@ -42,7 +42,7 @@ jobs:
 
   health:
     needs: Build-test-deploy
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     steps:
       - name: Health check
